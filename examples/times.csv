@@ -1,0 +1,6 @@
+jd_utc,exposure_s,note
+2460000.5,60,transit ingress
+2460000.51,60,transit mid
+2460000.52,60,transit egress
+2460001.5,60,next night ingress
+2460001.51,60,next night mid
