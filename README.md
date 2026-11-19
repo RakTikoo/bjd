@@ -164,6 +164,14 @@ tests from the 2026-11-17 adversarial review in `REVIEW.md` (non-finite
 or implausible site height, ISO `T` separator, BOM-prefixed CSV,
 `--out` equal to the input, one-line corrupt-file errors).
 
+## Use with an AI agent
+
+This repo ships a [SKILL.md](SKILL.md) written to the Agent Skills open
+standard. If your coding agent supports skills, point it at this repo and
+it can install bjd, run it on your tables, and read the results for you.
+The skill works as documented when the repo is cloned under its real
+name (`bjd`) — the standard matches a skill to its folder name.
+
 ## License
 
 MIT. Free and open source, for science.
