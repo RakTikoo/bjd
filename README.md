@@ -1,5 +1,7 @@
 # bjd — convert observation times in a table to BJD_TDB
 
+[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/RakTikoo/bjd)
+
 **Batch-convert a column of observation times in a CSV or FITS table to BJD_TDB — explicitly, or not at all.**
 
 Exoplanet and transit work lives and dies by time standards. A column of
@@ -92,6 +94,8 @@ With Scoop (Windows):
 scoop bucket add RakTikoo https://github.com/RakTikoo/scoop-bucket
 scoop install bjd
 ```
+
+**For agent users:** this repository ships a `SKILL.md` for AI agents. Install it with `npx skills add RakTikoo/bjd`.
 
 ## Usage
 
