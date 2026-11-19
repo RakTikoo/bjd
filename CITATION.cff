@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+  - name: RakTikoo
+title: "bjd: convert observation times in a CSV or FITS table to BJD_TDB"
+version: 0.1.0
+date-released: 2026-11-17
+license: MIT
+url: "https://github.com/RakTikoo/bjd"
+repository-code: "https://github.com/RakTikoo/bjd"
+abstract: >-
+  Batch-converts a column of observation times in a CSV or FITS table to
+  BJD_TDB (barycentric Julian date, TDB). The input format and time scale
+  must be stated explicitly; the tool refuses to guess either.
+keywords:
+  - astronomy
+  - barycentric Julian date
+  - exoplanet
+  - time conversion

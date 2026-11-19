@@ -1,4 +1,4 @@
-# bjd
+# bjd — convert observation times in a table to BJD_TDB
 
 **Batch-convert a column of observation times in a CSV or FITS table to BJD_TDB — explicitly, or not at all.**
 
@@ -15,6 +15,10 @@ you can see the shift instead of trusting it.
 
 If you do not state `--format` and `--scale`, `bjd` refuses and tells you
 why. That refusal is the product.
+
+**Quick install:** `pip install git+https://github.com/RakTikoo/bjd`
+(Python 3.10+, Astropy 6+; runs fully offline). Details under
+[Install](#install).
 
 ## Demo
 

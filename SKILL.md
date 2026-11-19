@@ -1,6 +1,6 @@
 ---
 name: bjd
-description: Convert a column of observation times in a CSV or FITS table to BJD_TDB (barycentric Julian date, TDB). The input format (jd, mjd or iso) and time scale (utc, tt, tai or tdb) must be stated explicitly — the tool refuses to guess either. Use when asked to convert times to BJD or BJD_TDB, correct observation times to the solar-system barycentre, or prepare exoplanet transit timing tables.
+description: Convert a column of observation times in a CSV or FITS table to BJD_TDB (barycentric Julian date, TDB). The input format (jd, mjd or iso) and time scale (utc, tt, tai or tdb) must be stated explicitly — the tool refuses to guess either. Use when asked to convert times to BJD or BJD_TDB, correct observation times to the solar-system barycentre, or prepare exoplanet transit timing tables. Not for cross-matching catalogues from different epochs (use epochmatch), deciding which targets are observable tonight (use tonight), or auditing FITS headers (use fitslog).
 license: MIT
 compatibility: Requires Python 3.10+ and Astropy 6+. Installing needs network access to GitHub; the tool itself runs fully offline (built-in ephemeris, network downloads disabled).
 ---
