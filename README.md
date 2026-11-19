@@ -65,6 +65,34 @@ Requires Python ≥ 3.10 and Astropy ≥ 6. Everything runs **offline**: the
 conversion uses Astropy's built-in ephemeris and bundled leap-second
 tables, and the tool disables network downloads for its data files.
 
+Or install the wheel straight from this repo's release assets (no package
+registry involved):
+
+```sh
+pip install https://github.com/RakTikoo/bjd/releases/download/v0.1.0/bjd-0.1.0-py3-none-any.whl
+```
+
+Or install from the git repo with pipx or uv:
+
+```sh
+pipx install git+https://github.com/RakTikoo/bjd.git@v0.1.0
+uv tool install --from git+https://github.com/RakTikoo/bjd.git@v0.1.0 bjd
+```
+
+With Homebrew (macOS/Linux):
+
+```sh
+brew tap RakTikoo/tools
+brew install RakTikoo/tools/bjd
+```
+
+With Scoop (Windows):
+
+```powershell
+scoop bucket add RakTikoo https://github.com/RakTikoo/scoop-bucket
+scoop install bjd
+```
+
 ## Usage
 
 ```
